@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Feed | Jay Viegram</title>
+  <title>Explore | Jay Viegram</title>
 </head>
 <body>
   <nav class="navigation">
@@ -29,40 +29,21 @@
       </ul>
     </div>
   </nav>
-  <main id="feed">
-    <header class="photo__header">
-      <img src="images/avatar.jpg" class="photo__avatar">
-      <span class="photo__author">jayra</span>
-      <span class="photo__locathion">danang</span>
-    </header>
-    <img src="images/feedPhoto.jpg" class="photo_image">
-    <div class="photo__info">
-      <div class="photo__actions">
-        <span class="photo__action"><i class="fa fa-heart-o fa-lg"></i></span>
-        <span class="photo__action"><i class="fa fa-comment-o fa-lg"></i></span>
-      </div>
-      <span>21 likes</span>
-      <ul class="photo__comments">
-        <li class="photo__comment">
-          <span class="photo__comment-author">jayra</span> i don't know what im doing
-        </li>
-        <li class="photo__comment">
-          <span class="photo__comment-author">inthetiger</span> i'm doing something funny!
-        </li>
-        <li class="photo__comment">
-          <span class="photo__comment-author">mark</span> fuck
-        </li>
-        <li class="photo__comment">
-          <span class="photo__comment-author">one</span>  lol :)
-        </li>
-      </ul>
-      <span class="photo__time-ago">1 hour ago</span>
-      <div class="phto__add-comment-container">
-        <textarea name="comment" rows="2" cols="30" placeholder="add a comment..."></textarea>
-        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-      </div>
-    </div>
-
+  <main id="explore">
+    <ul class="explore__users">
+      <li class="explore__user">
+        <div class="explore__user-column">
+          <img src="images/avatar.jpg" class="explore__avatar" />
+          <div class="explore__info">
+            <span class="explore__username">inthetiger</span>
+            <span class="explore__full-name">Lynn Park</span>
+          </div>
+        </div>
+        <div class="explore__user-column">
+          <button>follow</button>
+        </div>
+      </li>
+    </ul>
   </main>
   <footer class="footer">
     <div class="footer__column">
