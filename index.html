@@ -1,50 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Jay Vietgram | Login</title>
     <meta name="description" content="Jay Vietgram, I have no idea about this"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <main>
+    <main id="login">
+      <div class="login__column">
+        <img class="login__phone" src="images/phoneImage.png"/>
+      </div>
+      <div class="login__column">
+        <div class="login__box">
+          <img class="login__logo" src="images/loginLogo.png" />
+          <form action="feed.html" method="get" class="login__form">
+            <input type="text" name="username" placeholder="Username" required class="login__input">
+            <input type="password" name="password" placeholder="Password" required class="login__input">
+            <input type="submit" value="log in" class="login__input">
+          </form>
+          <span class="login__divider">or</span>
+          <a href="#" class="login__link"><i class="fa fa-facebook-square"></i>Log in with Facebook</a>
+          <a href="#" class="login__link login__link--small">Forgot password?</a>
+        </div>
+        <div class="login__box">
+          <span>Don't have an account?</span><a href="#">Sign Up</a>
+        </div>
+        <div class="login__box login__box--transparent">
+          <span>Get the app.</span>
+          <div class="login__appstores">
+            <img class="login__appstore" src="images/ios.png" />
+            <img class="login__appstore" src="images/android.png" />
+          </div>
+        </div>
+      </div>
 
     </main>
-    <footer>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">About us</a>
-            </li>
-            <li>
-              <a href="#">Support</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Press</a>
-            </li><li>
-              <a href="#">API</a>
-            </li><li>
-              <a href="#">Jobs</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
-            </li>
-            <li>
-              <a href="#">Terms</a>
-            </li>
-            <li>
-              <a href="#">Directory</a>
-            </li><li>
-              <a href="#">Language</a>
-            </li>
+    <footer class="footer">
+      <div class="footer__column">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#" class="footer__link">About us</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Support</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Blog</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Press</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">API</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Jobs</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Privacy</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Terms</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Directory</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Language</a></li>
           </ul>
         </nav>
-
       </div>
-      <div>
-        <span>© 2017 jay vietgram</span>
+      <div class="footer__column">
+        <span>© 2017 Jay Vietgram</span>
       </div>
     </footer>
   </body>
