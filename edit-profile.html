@@ -29,49 +29,68 @@
       </ul>
     </div>
   </nav>
-  <main id="profile">
-    <header class="profile__header">
-      <div class="profile__column">
-        <img src="images/avatar1.jpg" />
-      </div>
-      <div class="profile__column">
-        <div class="profile__title">
-          <h3 class="profile__username">serranoarevalo</h3>
-          <a class="profile__edit" href="#">Edit Profile</a>
-          <i class="fa fa-cog fa-lg"></i>
-        </div>
-        <ul class="profile__stats">
-          <li class="profile__stat"><span class="stat__numder">313</span> posts</li>
-          <li class="profile__stat"><span class="stat__numder">4206</span> followers</li>
-          <li class="profile__stat"><span class="stat__numder">36</span> following</li>
-        </ul>
-        <p class="profile__bio">
-          <span class="profile__full-name">Nicolás Serrano Arévalo</span>
-          Traveling the world forever. Now: Da Nang, Vietnam
-          <a href="http://serranoarevalo.com">serranoarevalo.com</a>
-        </p>
-
-      </div>
-
-    </header>
-    <div class="profile__images">
-      <div class="profile__single-image">
-        <a href="#">
-          <img src="images/feedPhoto.jpg">
-          <div class="profile__single-image-stats">
-            <ul>
-              <li><i class="fa fa-heart-o fa-lg"></i><span class="profile__single-image-stats">252</span></li>
-              <li><i class="fa fa-comment fa-lg"></i><span class="profile__single-image-stats">23</span></li>
-            </ul>
-          </div>
-        </a>
-      </div>
-
-
-
+  <main>
+    <div class="edit__menu">
+      <ul>
+        <li class="edit__menu--list"><a href="#">Edit Profile</a></li>
+        <li class="edit__menu--list"><a href="#">Change Password</a></li>
+        <li class="edit__menu--list"><a href="#">Authorized Applications</a></li>
+        <li class="edit__menu--list"><a href="#">Comments</a></li>
+        <li class="edit__menu--list"><a href="#">Email and SNS</a></li>
+        <li class="edit__menu--list"><a href="#">Manage Contacts</a></li>
+      </ul>
     </div>
-
+    <div class="edit__profile">
+      <header>
+        <img src="images/avatar1.jpg" />
+        <h1>Jay Ra</h1>
+      </header>
+      <form class="edit__profile">
+        <div class="edit__basic-info">
+          <span>Name</span>
+          <input type="text" name="name" value="RaJaesung" />
+        </div>
+        <div class="edit__basic-info">
+          <span>Username</span>
+          <input type="text" name="username" value="JayRa"  />
+        </div>
+        <div class="edit__basic-info">
+          <span>Website</span>
+          <input type="text" name="uebsite"  />
+        </div>
+        <div class="edit__basic-info">
+          <span>bio</span>
+          <textarea name="bio" rows="2" cols="30"></textarea>
+        </div>
+        <span>Private Information</span>
+        <div class="edit__basic-info">
+          <span>Email</span>
+          <input type="text" name="email" value="rajaesung@gmail.com" />
+        </div>
+        <div class="edit__basic-info">
+          <span>Phone Number</span>
+          <input type="text" name="phone-number" value="01229919048"  />
+        </div>
+        <div class="edit__basic-info">
+          <span>Gender</span>
+          <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="not-specified">Not Specified</option>
+          </select>
+        </div>
+        <div class="edit__basic-info">
+          <span>Similar Account Suggestions</span>
+          <input type="checkbox" name="similar-account-suggestions"  />
+          <span>Include your account when recommending similar accounts people might want to follow.</span>
+          <a href="#">[?]</a>
+        </div>
+        <button type="button" name="submit">submit</button>
+        <a href="#">Temporarily disable my account</a>
+      </form>
+    </div>
   </main>
+
   <footer class="footer">
     <div class="footer__column">
       <nav class="footer__nav">
