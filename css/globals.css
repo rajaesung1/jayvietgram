@@ -1,0 +1,21 @@
+body {
+  background-color: #FAFAFA;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main{
+  animation: fadeInMain 1s linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes fadeInMain {
+  from{
+
+    opacity: 0;
+  }
+  to{
+    transform: translateY(5px);
+    opacity: 1;
+  }
+}

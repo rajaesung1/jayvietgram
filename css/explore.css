@@ -1,0 +1,74 @@
+#explore {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: white;
+  border: 1px solid #efefef;
+  min-height: 500px;
+  align-items: flex-start;
+}
+
+
+#explore .explore__user{
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.explore__user-column .explore__avatar{
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.explore__user-column {
+  display: flex;
+
+}
+
+.explore__user-column .explore__info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.explore__info .explore__username{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+
+}
+
+.explore__info .explore__full-name{
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.explore__user-column button{
+  background: #3897f0;
+  border-color: #3897f0;
+  color: #fff;
+  width: 62px;
+  height: 28px;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.explore__user-column button:active,
+.explore__user-column button:focus{
+  outline: none;
+}
+
+.explore__user-column:active{
+  opacity: 0.9;
+}
