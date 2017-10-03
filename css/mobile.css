@@ -1,7 +1,28 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
   .navigation{
-    padding: 0 0;
+    padding: 0 20px;
   }
-
+  .navigation__column input,
+  .navigation__column .fa-search{
+    display: none;
+  }
+  #feed {
+    margin-top: 0px;
+  }
+  .footer,
+  .footer .footer__list{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .footer .footer__list ul{
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .footer__list .footer__list-item{
+    margin-bottom: 10px;
+  }
 
 }
